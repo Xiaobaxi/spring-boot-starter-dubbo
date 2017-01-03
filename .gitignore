@@ -1,0 +1,17 @@
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+target
+.idea
+.settings
+.project
+.classpath
+jef.properties
+out
+gradle
+.gradle
+build
+overlays

@@ -1,6 +1,6 @@
-package com.hikvision.ga.boot.dubbo.demo;
+package com.hikvision.ga.boot.dubbo;
 
-import com.hikvision.ga.boot.dubbo.EnableDubboAutoConfiguration;
+import com.hikvision.ga.boot.dubbo.demo.EchoTestService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;

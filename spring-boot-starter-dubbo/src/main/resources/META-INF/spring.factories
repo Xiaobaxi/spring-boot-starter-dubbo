@@ -1,0 +1,4 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.hikvision.ga.boot.dubbo.DubboConfigurationApplicationContextInitializer
+org.springframework.context.ApplicationListener=\
+com.hikvision.ga.boot.dubbo.DubboHolderListener

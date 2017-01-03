@@ -1,6 +1,5 @@
 package com.hikvision.ga.boot.dubbo;
 
-import com.hikvision.ga.boot.dubbo.EnableDubboAutoConfiguration;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

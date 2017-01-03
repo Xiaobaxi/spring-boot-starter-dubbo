@@ -4,4 +4,6 @@ spring:
       name: demo-client
     registry:
       address: zookeeper://localhost:2181
-    scan: com.hikvison.ga.boot.dubbo.demo
+    scan: com.hikvison.ga.boot.dubbo
+server:
+  port: 8081

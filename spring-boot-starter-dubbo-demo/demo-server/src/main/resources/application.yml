@@ -7,4 +7,6 @@ spring:
     protocol:
       name: dubbo
       port: 20880
-    scan: com.hikvison.ga.boot.dubbo.demo
+    scan: com.hikvison.ga.boot.dubbo
+server:
+  port: 8080

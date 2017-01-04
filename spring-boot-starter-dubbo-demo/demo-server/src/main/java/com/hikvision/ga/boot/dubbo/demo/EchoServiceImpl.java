@@ -1,11 +1,8 @@
 package com.hikvision.ga.boot.dubbo.demo;
 
-import com.alibaba.dubbo.config.annotation.Service;
-
 /**
  * Created by fangzhibin on 2017/1/3.
  */
-@Service(version = "1.0.0")
 public class EchoServiceImpl implements EchoService {
 
     @Override

@@ -1,4 +1,4 @@
-org.springframework.context.ApplicationContextInitializer=\
-com.hikvision.ga.boot.dubbo.DubboConfigurationApplicationContextInitializer
-org.springframework.context.ApplicationListener=\
-com.hikvision.ga.boot.dubbo.DubboHolderListener
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+io.github.xiaobaxi.boot.dubbo.DubboAutoConfiguration,\
+io.github.xiaobaxi.boot.dubbo.DubboProviderAutoConfiguration,\
+io.github.xiaobaxi.boot.dubbo.DubboConsumerAutoConfiguration

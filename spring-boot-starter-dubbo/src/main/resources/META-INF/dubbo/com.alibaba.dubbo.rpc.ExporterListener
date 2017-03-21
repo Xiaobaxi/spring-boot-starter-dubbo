@@ -1,0 +1,1 @@
+dubboexport=io.github.xiaobaxi.boot.dubbo.listener.ProviderExportListener

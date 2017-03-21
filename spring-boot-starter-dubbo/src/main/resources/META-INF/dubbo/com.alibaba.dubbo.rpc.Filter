@@ -1,0 +1,2 @@
+dubboconsumerstatics=io.github.xiaobaxi.boot.dubbo.listener.ConsumerInvokeStaticsFilter
+dubboproviderstatics=io.github.xiaobaxi.boot.dubbo.listener.ProviderInvokeStaticsFilter

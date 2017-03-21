@@ -1,0 +1,1 @@
+dubbosubscribe=io.github.xiaobaxi.boot.dubbo.listener.ConsumerSubscribeListener

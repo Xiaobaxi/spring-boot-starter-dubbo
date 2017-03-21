@@ -1,5 +1,7 @@
 package com.hikvision.ga.boot.dubbo;
 
+import io.github.xiaobaxi.boot.dubbo.annotation.EnableDubboAutoConfiguration;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

@@ -1,8 +1,7 @@
 package com.hikvision.ga.boot.dubbo.demo;
 
-import com.alibaba.dubbo.common.extension.Activate;
-import com.alibaba.dubbo.config.annotation.Reference;
-import org.springframework.beans.factory.annotation.Autowired;
+import io.github.xiaobaxi.boot.dubbo.annotation.DubboConsumer;
+
 import org.springframework.stereotype.Component;
 
 /**
@@ -11,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class EchoTestService {
 
-    @Autowired
+	@DubboConsumer
     private EchoService echoService;
 
     public String echo(String str) {
